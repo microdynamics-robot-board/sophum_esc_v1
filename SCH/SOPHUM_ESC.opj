@@ -144,20 +144,19 @@
       (Path "Design Resources" ".\sophum_esc.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "..\lib\sch_lib\siphum_esc.olb")
-      (Path "Outputs")
-      (Select "Design Resources" ".\sophum_esc.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 223"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 223"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1212 26 288")
-        (Scroll "630 776")
-        (Zoom "176")
+        (Placement "44 2 3 -1 -1 -8 -31 26 1212 26 288")
+        (Scroll "-119 235")
+        (Zoom "88")
         (Occurrence "/"))
       (Path "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC\SCH\SOPHUM_ESC.DSN")
       (Schematic "SCHEMATIC1")
