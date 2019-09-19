@@ -64,7 +64,21 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC\SCH\SOPHUM_ESC.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Value}\t{Reference}\t{PCB Footprint}\t{Quantity}")
+    (BOM_Header "Comment\tDesignator\tFootprint\tQuantity")
+    (BOM_Include_File
+       "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC\SCH\SOPHUM_ESC.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
   (Folder "Outputs"
     (File ".\sophum_esc.drc"
       (Type "Report"))
@@ -76,7 +90,11 @@
       (DisplayName "pstxprt.dat"))
     (File ".\netlist\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\sophum_esc.bom"
+      (Type "Report"))
+    (File ".\sophum_esc.csv"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (TEST_POINT
@@ -155,7 +173,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 223"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 223"))
       (Tab 0)))
   (MPSSessionName "abcd")
   (ISPCBBASICLICENSE "false"))
