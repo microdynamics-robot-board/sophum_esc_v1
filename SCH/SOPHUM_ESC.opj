@@ -159,21 +159,32 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\Users\abcd\Documents\GitHub\sophum_esc\SCH\sophum_esc.dsn")
+         "c:\users\abcd\documents\github\sophum_esc\sch\sophum_esc.dsn")
       (Path "Design Resources"
-         "C:\Users\abcd\Documents\GitHub\sophum_esc\SCH\sophum_esc.dsn"
+         "c:\users\abcd\documents\github\sophum_esc\sch\sophum_esc.dsn"
          "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
-         "C:\Users\abcd\Documents\GitHub\sophum_esc\lib\sch_lib\siphum_esc.olb")
+         "c:\users\abcd\documents\github\sophum_esc\lib\sch_lib\siphum_esc.olb")
       (Path "Outputs")
-      (Select "Design Resources"
-         "C:\Users\abcd\Documents\GitHub\sophum_esc\SCH\sophum_esc.dsn"))
+      (Select "Design Resources" "Library"
+         "c:\users\abcd\documents\github\sophum_esc\lib\sch_lib\siphum_esc.olb"
+         "EFM8BB21F16G"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 223"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1208 52 314")
+        (Scroll "0 541")
+        (Zoom "160")
+        (Occurrence "/"))
+      (Path "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC\SCH\SOPHUM_ESC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
   (MPSSessionName "abcd")
   (ISPCBBASICLICENSE "false"))
