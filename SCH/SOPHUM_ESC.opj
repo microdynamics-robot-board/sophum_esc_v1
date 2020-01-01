@@ -78,7 +78,23 @@
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "TRUE")
-    (BOM_View_Output "FALSE"))
+    (BOM_View_Output "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Outputs"
     (File ".\sophum_esc.drc"
       (Type "Report"))
@@ -97,13 +113,23 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (TEST_POINT
-      (FullPartName "TEST_POINT.Normal")
+    (HEADER-6X1
+      (FullPartName "HEADER-6X1.Normal")
       (LibraryName
          "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC\LIB\SCH_LIB\SIPHUM_ESC.OLB")
       (DeviceIndex "0"))
     (HEADER-4X1
       (FullPartName "HEADER-4X1.Normal")
+      (LibraryName
+         "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC\LIB\SCH_LIB\SIPHUM_ESC.OLB")
+      (DeviceIndex "0"))
+    (EFM8BB21F16G
+      (FullPartName "EFM8BB21F16G.Normal")
+      (LibraryName
+         "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC\LIB\SCH_LIB\SIPHUM_ESC.OLB")
+      (DeviceIndex "0"))
+    (TEST_POINT
+      (FullPartName "TEST_POINT.Normal")
       (LibraryName
          "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC\LIB\SCH_LIB\SIPHUM_ESC.OLB")
       (DeviceIndex "0"))
@@ -167,9 +193,8 @@
       (Path "Design Resources" "Library"
          "c:\users\abcd\documents\github\sophum_esc\lib\sch_lib\siphum_esc.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library"
-         "c:\users\abcd\documents\github\sophum_esc\lib\sch_lib\siphum_esc.olb"
-         "EFM8BB21F16G"))
+      (Select "Design Resources"
+         "c:\users\abcd\documents\github\sophum_esc\sch\sophum_esc.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -177,14 +202,39 @@
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 223"))
       (Tab 0))
     (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 971 104 370"))
+      (Path "C:\Users\abcd\Documents\GitHub\sophum_esc\SCH\NETLIST\pstxnet.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 997 130 396"))
+      (Path "C:\Users\abcd\Documents\GitHub\sophum_esc\SCH\NETLIST\pstchip.dat")
+      (Scroll "266"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 919 52 318"))
+      (Path "c:\users\abcd\documents\github\sophum_esc\sch\sophum_esc.drc")
+      (Scroll "36")
+      (Select "44 27 44 30"))
+    (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1208 52 314")
-        (Scroll "0 541")
-        (Zoom "160")
+        (Placement "44 0 1 -1 -1 -8 -31 0 867 0 266")
+        (Scroll "756 461")
+        (Zoom "176")
         (Occurrence "/"))
       (Path "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC\SCH\SOPHUM_ESC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Page "PAGE1"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 945 78 344"))
+      (Path "C:\Users\abcd\Documents\GitHub\sophum_esc\SCH\NETLIST\pstxprt.dat")
+      (Scroll "0")))
   (MPSSessionName "abcd")
   (ISPCBBASICLICENSE "false"))

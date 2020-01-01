@@ -1,4 +1,4 @@
-Date and Time : 08/13/19 22:54:45
+Date and Time : 01/01/20 21:03:22
 
 --------------------------------------------------
 Checking Schematic: SCHEMATIC1
@@ -41,24 +41,24 @@ Checking Name Property for Hierarchical Instances
 INFO(ORCAP-2211): Check High Speed Properties Syntax
 
 INFO(ORCAP-2212): Check Power Ground Mismatch
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? FET3,N_S  N_S  GND
-                    SCHEMATIC1, PAGE1  (228.60, 63.50) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? FET1,N_S  N_S  GND
-                    SCHEMATIC1, PAGE1  (228.60, 149.86) 
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? FET2,N_S  N_S  GND
                     SCHEMATIC1, PAGE1  (228.60, 106.68) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  VCC_3V3
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? FET1,N_S  N_S  GND
+                    SCHEMATIC1, PAGE1  (228.60, 63.50) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? FET3,N_S  N_S  GND
+                    SCHEMATIC1, PAGE1  (228.60, 149.86) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,VDD  VDD  VCC_3V3
                     SCHEMATIC1, PAGE1  (76.20, 111.76) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,OUT  OUT  VCC_3V3
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,OUT  OUT  VCC_3V3
                     SCHEMATIC1, PAGE1  (83.82, 40.64) 
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? FET3,P_S  P_S  VCC
-                    SCHEMATIC1, PAGE1  (228.60, 45.72) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? FET1,P_S  P_S  VCC
                     SCHEMATIC1, PAGE1  (228.60, 132.08) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,IN  IN  VCC
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,IN  IN  VCC
                     SCHEMATIC1, PAGE1  (50.80, 40.64) 
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? FET2,P_S  P_S  VCC
                     SCHEMATIC1, PAGE1  (228.60, 88.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? FET1,P_S  P_S  VCC
+                    SCHEMATIC1, PAGE1  (228.60, 45.72) 
 
 Reporting Unused Refdes in multiple part packages
 Part	                       Quantity	                       Reference
