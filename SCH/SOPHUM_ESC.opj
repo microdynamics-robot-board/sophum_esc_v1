@@ -184,57 +184,26 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\abcd\documents\github\sophum_esc\sch\sophum_esc.dsn")
-      (Path "Design Resources"
-         "c:\users\abcd\documents\github\sophum_esc\sch\sophum_esc.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\sophum_esc.dsn")
+      (Path "Design Resources" ".\sophum_esc.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "c:\users\abcd\documents\github\sophum_esc\lib\sch_lib\siphum_esc.olb")
       (Path "Outputs")
-      (Select "Design Resources"
-         "c:\users\abcd\documents\github\sophum_esc\sch\sophum_esc.dsn"))
+      (Select "Design Resources" ".\sophum_esc.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 223"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 223"))
       (Tab 0))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 971 104 370"))
-      (Path "C:\Users\abcd\Documents\GitHub\sophum_esc\SCH\NETLIST\pstxnet.dat")
-      (Scroll "0"))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 997 130 396"))
-      (Path "C:\Users\abcd\Documents\GitHub\sophum_esc\SCH\NETLIST\pstchip.dat")
-      (Scroll "266"))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 919 52 318"))
-      (Path "c:\users\abcd\documents\github\sophum_esc\sch\sophum_esc.drc")
-      (Scroll "36")
-      (Select "44 27 44 30"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 867 0 266")
-        (Scroll "756 461")
-        (Zoom "176")
+        (Placement "44 2 3 -1 -1 -8 -31 130 1290 130 396")
+        (Scroll "238 650")
+        (Zoom "200")
         (Occurrence "/"))
-      (Path "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC\SCH\SOPHUM_ESC.DSN")
+      (Path "C:\USERS\ABCD\DOCUMENTS\GITHUB\SOPHUM_ESC_V1\SCH\SOPHUM_ESC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 945 78 344"))
-      (Path "C:\Users\abcd\Documents\GitHub\sophum_esc\SCH\NETLIST\pstxprt.dat")
-      (Scroll "0")))
+      (Page "PAGE1")))
   (MPSSessionName "abcd")
   (ISPCBBASICLICENSE "false"))
